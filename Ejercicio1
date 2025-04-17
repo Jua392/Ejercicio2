@@ -1,0 +1,27 @@
+
+#include <iostream>
+#include <stdio.h>
+
+int main()
+{
+    double primer;
+    double segundo;
+    double suma;
+    double resta;
+    double multiplicacion;
+    double division;
+    std::cout<<"Por favor ingrese el primer numero: ";
+    std::cin>>primer;
+    std::cout<<"Por favor ingresa el segundo numero: ";
+    std::cin>>segundo;
+    suma=primer+segundo;
+    std::cout<<"La suma de "<<primer<<"+" <<segundo<< "=" <<suma<< std::endl;
+    resta=primer-segundo;
+    std::cout<<"La resta de "<<primer<<"-"<<segundo<< "=" <<resta<< std::endl;
+    multiplicacion=primer*segundo;
+    std::cout<<"La multiplicacion de "<<primer<<"*"<<segundo<< "=" <<multiplicacion<< std::endl;
+    division=primer/segundo;
+    std::cout<<"La division de "<<primer<<"/"<<segundo<< "="<<division<< std::endl;
+
+    return 0;
+}
